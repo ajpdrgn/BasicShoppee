@@ -2,8 +2,8 @@ package com.example.midterms_final;
 
 public class Credentials {
 
-    private String username="ajpdrgn";
-    private String password="pattypat31";
+    private String username="sampleusername";
+    private String password="samplepassword";
 
     public String getUsername(){
         return username;
