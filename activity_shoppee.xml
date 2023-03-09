@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Shoppee">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="sans-serif"
+            android:text="P1020"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:text="P9500"
+            app:layout_constraintStart_toEndOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="sans-serif"
+            android:text="P7999"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="44dp"
+            android:fontFamily="sans-serif"
+            android:text="P1950"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="73dp"
+            android:fontFamily="sans-serif"
+            android:text="Segmart 3 Piece Carry on"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Luggage Set"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <Button
+            android:id="@+id/SEG_lessbut"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF5722"
+            android:text="-"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/SEG_piece"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif"
+            android:text="1x"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/SEG_lessbut"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <Button
+            android:id="@+id/SEG_morebut"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF5722"
+            android:text="+"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/SEG_piece"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="sans-serif"
+            android:text="Laptop Bag"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <Button
+            android:id="@+id/BB_morebut"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#FF5722"
+            android:text="+"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/BB_piece"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/BB_piece"
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:text="1x"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif"
+            android:text="Baseus Basics Series 13 inch "
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/BB_lessbut"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:backgroundTint="#FF5722"
+            android:text="-"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/BB_piece"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="38dp"
+            android:fontFamily="sans-serif"
+            android:text="Tower Fan"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/BB_lessbut" />
+
+        <Button
+            android:id="@+id/SO_morebut"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#FF5722"
+            android:text="+"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/SO_piece"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="94dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_595821729218499" />
+
+        <TextView
+            android:id="@+id/SO_piece"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="97dp"
+            android:fontFamily="sans-serif"
+            android:text="1x"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textViewthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Silentnight Oscillating Bladeless"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/BB_piece" />
+
+        <Button
+            android:id="@+id/SO_lessbut"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF5722"
+            android:text="-"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/SO_piece"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <Button
+            android:id="@+id/PO_morebut"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF5722"
+            android:text="+"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/PO_lessbut"
+            app:layout_constraintTop_toBottomOf="@+id/textViewfour" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="23dp"
+            android:fontFamily="sans-serif"
+            android:text="Polaroid originals Go Analog"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/SO_piece" />
+
+        <TextView
+            android:id="@+id/textViewfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:fontFamily="sans-serif"
+            android:text="Instant Camera White"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <Button
+            android:id="@+id/PO_lessbut"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF5722"
+            android:text="-"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/PO_piece"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif"
+            android:text="1x"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/PO_lessbut"
+            app:layout_constraintTop_toBottomOf="@+id/textViewfour" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:fontFamily="sans-serif"
+            android:text="Circular Mirrors"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/MG_morebut"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="#FF5722"
+            android:text="+"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <Button
+            android:id="@+id/MG_lessbut"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF5722"
+            android:text="-"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Modern Gold Round Mirror"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/SEG_piece" />
+
+        <TextView
+            android:id="@+id/MG_piece"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="17dp"
+            android:fontFamily="sans-serif"
+            android:text="1x"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/MG_lessbut"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <Button
+            android:id="@+id/checkout"
+            android:layout_width="139dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="56dp"
+            android:backgroundTint="#FF5722"
+            android:text="Checkout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/MG_piece" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/_8009_main" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="97dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/polaroid_originals_go_analog_instant_camera" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="94dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:srcCompat="@drawable/_a662299_9409_4293_84fe_f1bf362ffe3e_d56649e0ff6b3893757f5090b8420ce4" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="91dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"
+            app:srcCompat="@drawable/ccgld80_1__98003" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="9dp"
+            android:text="P350"
+            app:layout_constraintStart_toEndOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
